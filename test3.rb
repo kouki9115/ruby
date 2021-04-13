@@ -1,7 +1,7 @@
- 
+
 def fizz_buzz(n)
  if n % 15 ==0
- "fizz_buzz" 
+ "fizz_buzz"
  elsif n % 5 ==0
  "fizz"
  elsif n % 3 ==0
@@ -9,11 +9,11 @@ def fizz_buzz(n)
  else
  n.to_i
  end
-end 
+end
 
 puts "入力を行ってください"
 input = gets.to_i
-puts "結果は"
+puts "結果は以下の通りです。"
 puts fizz_buzz(input)
 
 
