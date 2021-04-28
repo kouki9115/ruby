@@ -13,7 +13,7 @@ end
 
 puts "入力"
 input = gets.to_i
-puts "結果は"
+puts "結果は以下となっております"
 puts fizz_buzz(input)
 
 
